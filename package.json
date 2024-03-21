@@ -1,0 +1,21 @@
+{
+  "name": "tiled-to-map",
+  "version": "1.0.0",
+  "description": "Transforms tiled data into format used for game boy dev",
+  "main": "index.js",
+  "bin": {
+    "tiled-to-map": "index.js"
+  },
+  "files": [
+    "template/**/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mateus.digital",
+  "license": "GPL-3.0-only",
+  "dependencies": {
+    "xml2js": "^0.6.2",
+    "yargs": "^17.7.2"
+  }
+}
