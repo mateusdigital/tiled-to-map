@@ -156,8 +156,8 @@ function _getDate()
 //------------------------------------------------------------------------------
 function _makeTilesValuesHex(tiles, mapWidth, writeAsHex = false)
 {
-  const leading_str = (writeAsHex) ? "" : "0x";
-  const base        = (writeAsHex) ? 10 : "16";
+  const leading_str = (writeAsHex) ? "0x" : "" ;
+  const base        = (writeAsHex) ? "16" : 10 ;
 
   let tiles_str = "";
   for(let i = 0; i < tiles.length; ++i) {
